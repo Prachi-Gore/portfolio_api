@@ -15,7 +15,7 @@ import os
 from decouple import Config
 
 
-config = Config()
+# config = Config()
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -88,11 +88,11 @@ WSGI_APPLICATION = 'portfolio_backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': config('DB_NAME'),  # Your MySQL database name
-        'USER': config('DB_USER'),  # Your MySQL username
-        'PASSWORD': config('DB_PASSWORD'),  # The password for the MySQL user
-        'HOST': config('DB_HOST'),  # Or '127.0.0.1' for local MySQL server
-        'PORT': config('DB_PORT'),  # The default MySQL port
+        'NAME': Config('DB_NAME'),  # Your MySQL database name
+        'USER': Config('DB_USER'),  # Your MySQL username
+        'PASSWORD': Config('DB_PASSWORD'),  # The password for the MySQL user
+        'HOST': Config('DB_HOST'),  # Or '127.0.0.1' for local MySQL server
+        'PORT': Config('DB_PORT'),  # The default MySQL port
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
         },
