@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-$wtg5e)!ps6!*d&3i=l$9kq#dc&&4iikdvb(xt*z271u9h6u-y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [] # allowed host for backend server
+ALLOWED_HOSTS = ["*"] # allowed host for backend server
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Example: React frontend
     "https://prachi-gore-portfolio.netlify.app",
@@ -135,6 +135,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # Directory where user-uploaded files will be stored
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
