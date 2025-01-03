@@ -11,7 +11,7 @@ class Skill(models.Model):
 
 class Project(models.Model):
     id=models.UUIDField(primary_key=True,default=uuid.uuid4,editable=False)
-    name = models.CharField(max_length=200)
+    name = models.CharField(max_length=400)
     description = models.TextField()
     src = models.FileField(upload_to='projects/videos/', null=True, blank=True)  # For video file path
     code = models.URLField(max_length=400)  # For GitHub or project code link

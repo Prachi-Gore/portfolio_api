@@ -29,7 +29,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = ["prachigore.pythonanywhere.com","127.0.0.1"] # allowed host for backend server
+ALLOWED_HOSTS = ["prachigore.pythonanywhere.com","localhost"] # allowed host for backend server
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Example: React frontend
     "https://prachi-gore-portfolio.netlify.app",
@@ -94,6 +94,7 @@ DATABASES = {
         'HOST': config('DB_HOST'),  # Or '127.0.0.1' for local MySQL server
         'PORT': config('DB_PORT'),  # The default MySQL port
         'OPTIONS': {
+             'charset': 'utf8mb4',
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
         },
     }
