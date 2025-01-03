@@ -1,0 +1,47 @@
+services:
+    mysql_db:
+      container_name: mysql_container_name
+      image: mysql # latest img of mysql
+      restart: always
+      ports:
+       - "3306:3306" # access port:default port
+      # environment:
+      #   - MYSQL_ROOT_PASSWORD=E1528509E
+      #   - MYSQL_DATABASE=portfoliodb
+      #   - MYSQL_USER=prachi
+      #   - MYSQL_PASSWORD=prachi123
+      env_file:
+        - ".env"
+      volumes:
+        - ./mysql_data:/var/lib/mysql # to not loose data whenever container is stopped
+      
+    # phpmyadmin:
+    #   container_name: phpmyadmin_container_name
+    #   image: phpmyadmin
+    #   restart: always
+    #   ports:
+    #     - "8080:80"
+    #   environment:
+    #     PMA_HOST: mysql_db
+    #     MYSQL_ROOT_PASSWORD: root
+    #   depends_on:
+    #     - mysql_db # first make container for service mysql_db then run container for service phpmyadmin
+
+    django_project:
+      container_name: django_container_name
+      image: django-img
+      build: 
+        context: .
+        dockerfile: Dockerfile.dev
+      ports:
+        - "8000:8000"
+      env_file:
+        - ".env"
+      volumes:
+        - .:/dockerDjangoSetup # whatever work will you do in your cwd it will be available in dockerDjangoSetup folder inside container
+      command: bash -c "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+      depends_on:
+        - mysql_db # first make container for service mysql_db then run container for service phpmyadmin
+
+
+# to run this (you can run with env or without env activation): docker compose -f docker-compose.dev.yml up -d
