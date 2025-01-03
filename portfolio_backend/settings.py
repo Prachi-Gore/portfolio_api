@@ -29,7 +29,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = ["https://prachigore.pythonanywhere.com","http://localhost:8000"] # allowed host for backend server
+ALLOWED_HOSTS = ["prachigore.pythonanywhere.com","localhost"] # allowed host for backend server
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Example: React frontend
     "https://prachi-gore-portfolio.netlify.app",
