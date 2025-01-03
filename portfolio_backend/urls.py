@@ -28,7 +28,7 @@ router.register(r'projects', ProjectViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('webhook/', views.github_webhook, name='github_webhook'), # auto trigger whenver code push on git
+    path('webhook', views.github_webhook, name='github_webhook'), # auto trigger whenver code push on git
     path('',include(router.urls))
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
