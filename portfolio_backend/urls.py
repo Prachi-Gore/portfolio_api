@@ -19,7 +19,7 @@ from django.urls import path,include
 from rest_framework.routers import DefaultRouter
 from skillsProjects.views import SkillViewSet,ProjectViewSet
 from django.conf.urls.static import static
-from .import settings
+from .import settings,views
 
 
 router = DefaultRouter()
@@ -28,6 +28,7 @@ router.register(r'projects', ProjectViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('webhook/', views.github_webhook, name='github_webhook'), # auto trigger whenver code push on git
     path('',include(router.urls))
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
