@@ -29,7 +29,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = ["prachigore.pythonanywhere.com","localhost"] # allowed host for backend server
+ALLOWED_HOSTS = ["prachigore.pythonanywhere.com","127.0.0.1"] # allowed host for backend server
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Example: React frontend
     "https://prachi-gore-portfolio.netlify.app",
@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'portfolio_backend.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
-
+print('db host ',config('DB_HOST'))
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
