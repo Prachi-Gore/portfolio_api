@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import os
-from decouple import Config
+from decouple import config
 
 
 # config = Config()
@@ -24,12 +24,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-$wtg5e)!ps6!*d&3i=l$9kq#dc&&4iikdvb(xt*z271u9h6u-y'
+SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = config('DEBUG')
 
-ALLOWED_HOSTS = ["*"] # allowed host for backend server
+ALLOWED_HOSTS = ["https://prachigore.pythonanywhere.com","http://localhost:8000"] # allowed host for backend server
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # Example: React frontend
     "https://prachi-gore-portfolio.netlify.app",
@@ -88,11 +88,11 @@ WSGI_APPLICATION = 'portfolio_backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': Config('DB_NAME'),  # Your MySQL database name
-        'USER': Config('DB_USER'),  # Your MySQL username
-        'PASSWORD': Config('DB_PASSWORD'),  # The password for the MySQL user
-        'HOST': Config('DB_HOST'),  # Or '127.0.0.1' for local MySQL server
-        'PORT': Config('DB_PORT'),  # The default MySQL port
+        'NAME': config('DB_NAME'),  # Your MySQL database name
+        'USER': config('DB_USER'),  # Your MySQL username
+        'PASSWORD': config('DB_PASSWORD'),  # The password for the MySQL user
+        'HOST': config('DB_HOST'),  # Or '127.0.0.1' for local MySQL server
+        'PORT': config('DB_PORT'),  # The default MySQL port
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
         },
