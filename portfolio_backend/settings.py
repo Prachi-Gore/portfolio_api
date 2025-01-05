@@ -91,7 +91,7 @@ DATABASES = {
         'NAME': config('DB_NAME'),  # Your MySQL database name
         'USER': config('DB_USER'),  # Your MySQL username
         'PASSWORD': config('DB_PASSWORD'),  # The password for the MySQL user
-        'HOST': config('DB_HOST'),  # Or '127.0.0.1' for local MySQL server
+        'HOST': 'localhost',  # Or '127.0.0.1' for local MySQL server
         'PORT': config('DB_PORT'),  # The default MySQL port
         'OPTIONS': {
              'charset': 'utf8mb4',
