@@ -1,0 +1,201 @@
+[
+    {
+        "model": "skillsProjects.project",
+        "fields": {
+            "name": "Amazon🛒 Clone",
+            "video_name": "amazon_frontend",
+            "description": "This is Amazon clone build with ReactJS, Styled Components and HTML5",
+            "code": "https://github.com/Prachi-Gore/amazon",
+            "preview": "https://amazon-frontend-responsive.netlify.app/",
+            "skills": []
+        }
+    },
+    {
+        "model": "skillsProjects.project",
+        "fields": {
+            "name": "Finance Calculator",
+            "video_name": "finance_calculator",
+            "description": "This Finance Calculator has feature of calculating Present Value, Future Value, Annuity/Series Of Payments/EMI",
+            "code": "https://github.com/Prachi-Gore/Finance-Calculator",
+            "preview": "https://prachigore29.shinyapps.io/Finance_Calculator/",
+            "skills": []
+        }
+    },
+    {
+        "model": "skillsProjects.project",
+        "fields": {
+            "name": "Data Visualization&Model Fitting Tool",
+            "video_name": "dvmft",
+            "description": "Now user can visualize dataset, fit the model without knowing any programming language",
+            "code": "https://github.com/Prachi-Gore/Model-Fitting-Data-Visualization-Tool",
+            "preview": "https://prachigore29.shinyapps.io/DataVisualizationAndModelFittingTool/",
+            "skills": []
+        }
+    },
+    {
+        "model": "skillsProjects.project",
+        "fields": {
+            "name": "Netflix Clone",
+            "video_name": "netflix_frontend",
+            "description": "This is Netflix clone build with HTML5, SCSS and ReactJS",
+            "code": "https://github.com/Prachi-Gore/Netflix-Clone",
+            "preview": "https://netflix-ui-react-scss.netlify.app/",
+            "skills": []
+        }
+    },
+    {
+        "model": "skillsProjects.project",
+        "fields": {
+            "name": "Fun With Triangle📐",
+            "video_name": "fun_with_triangle",
+            "description": "This is multi page website Here you can check whether given geometry is triangle? Area? Hypotenous? Quizzes",
+            "code": "https://github.com/Prachi-Gore/Fun_With_Triangles",
+            "preview": "https://learn-triangles-with-fun.netlify.app/",
+            "skills": []
+        }
+    },
+    {
+            "model": "skillsProjects.project",
+            "fields": {
+                "name": "Airbnb",
+                "video_name": "airbnb",
+                "description": "This is Airbnb clone build with HTML, CSS, ReactJS",
+                "code": "https://github.com/Prachi-Gore/airbnb-clone",
+                "preview": "https://airbnbscrimba.netlify.app/",
+                "skills": []
+            }
+        },
+    {
+            "model": "skillsProjects.project",
+            "fields": {
+                "name": "React Info App",
+                "video_name": "react_info_app",
+                "description": "Do you want to know about react",
+                "code": "https://github.com/Prachi-Gore/react-info-app",
+                "preview": "https://react-info-app.netlify.app/",
+                "skills": []
+            }
+        },
+    {
+            "model": "skillsProjects.project",
+            "fields": {
+                "name": "Multiplication🧮 App",
+                "video_name": "random_multiplication",
+                "description": "Practice multiplication and keep track of score",
+                "code": "https://github.com/Prachi-Gore/MultiplicationApp",
+                "preview": "https://multiplicationpractice.netlify.app/",
+                "skills": []
+            }
+        },
+    {
+            "model": "skillsProjects.project",
+            "fields": {
+                "name": "Cash💵 Register Manager",
+                "video_name": "cash_register_manager",
+                "description": "help the user by telling how can he/she return the change to the customer with a minimum number of notes",
+                "code": "https://github.com/Prachi-Gore/Cash-Register-Manager",
+                "preview": "https://cash-exchange-guide.netlify.app/",
+                "skills": []
+            }
+        },
+    {
+            "model": "skillsProjects.project",
+            "fields": {
+                "name": "Count Character",
+                "video_name": "char_count",
+                "description": "let's count characters",
+                "code": "https://github.com/Prachi-Gore/Count_Characters",
+                "preview": "https://prachi-gore.github.io/Count_Characters/",
+                "skills": []
+            }
+        },
+    {
+            "model": "skillsProjects.project",
+            "fields": {
+                "name": "Digital Clock⏰",
+                "video_name": "digital_clock",
+                "description": "This is Digital Clock",
+                "code": "https://github.com/Prachi-Gore/DigitalClock",
+                "preview": "https://prachi-gore.github.io/DigitalClock/",
+                "skills": []
+            }
+        },
+    {
+            "model": "skillsProjects.project",
+            "fields": {
+                "name": "Is Your 🎂 Lucky",
+                "video_name": "lucky_bday",
+                "description": "This is fun app to see whether your Birthdate is Lucky",
+                "code": "https://github.com/Prachi-Gore/isYourBirthdayLucky",
+                "preview": "https://is-your-birthdate-special.netlify.app/",
+                "skills": []
+            }
+        },
+    {
+            "model": "skillsProjects.project",
+            "fields": {
+                "name": "meme 🎭 Generator",
+                "video_name": "meme_generator",
+                "description": "This is meme generator",
+                "code": "https://github.com/Prachi-Gore/meme-generator",
+                "preview": "https://generate-funny-meme.netlify.app/",
+                "skills": []
+            }
+        },
+    {
+            "model": "skillsProjects.project",
+            "fields": {
+                "name": "Palindrome Birthday🍰",
+                "video_name": "palindrome_birthday",
+                "description": "palindrome birthday checker",
+                "code": "https://github.com/Prachi-Gore/palindrome-birthday",
+                "preview": "https://palindromric-birthday.netlify.app/",
+                "skills": []
+            }
+        },
+    {
+            "model": "skillsProjects.project",
+            "fields": {
+                "name": "Quiz🤔 App",
+                "video_name": "quiz_cli",
+                "description": "let's play, how well do you know india. This APP made on Command Line Interface",
+                "code": "https://github.com/Prachi-Gore/Quiz_in_CLI",
+                "preview": "https://replit.com/@Prachi-Gore/Quiz#index.js?embed=1&output=1",
+                "skills": []
+            }
+        },
+    {
+            "model": "skillsProjects.project",
+            "fields": {
+                "name": "Stock Price💰 Calculator",
+                "video_name": "stock_price",
+                "description": "This is Stock Purchase Profit and Loss Calculator App",
+                "code": "https://github.com/Prachi-Gore/Stock-Price-Calculator",
+                "preview": "https://stock-purchase-calculator.netlify.app/",
+                "skills": []
+            }
+        },
+    {
+            "model": "skillsProjects.project",
+            "fields": {
+                "name": "Blog📝 Web App With R Shiny",
+                "video_name": "blog_shiny",
+                "description": "This blog is regarding how to create dashboard in R shiny. specially for How to render Plots",
+                "code": "https://github.com/Prachi-Gore/blog-shiny",
+                "preview": "https://web-app-shiny-blog.netlify.app/",
+                "skills": []
+            }
+        },
+    {
+            "model": "skillsProjects.project",
+            "fields": {
+                "name": "Portfolio",
+                "video_name": "portfolio",
+                "description": "This is my portfolio as a JavaScript, ReactJS, R Shiny Developer",
+                "code": "https://github.com/Prachi-Gore/portfolio",
+                "preview": "https://prachi-gore-portfolio.netlify.app/",
+                "skills": []
+            }
+        }
+    ]
+

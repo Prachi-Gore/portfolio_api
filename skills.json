@@ -1,0 +1,179 @@
+[
+    {
+        "model": "skillsProjects.skill",
+        "id": "0b0b3e6f-46bd-487b-af63-632fc7472986",
+        "fields": {
+            "name": "Git VCS",
+            "iconUrl": "https://img.icons8.com/color/48/000000/git.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "2989d93e-d56c-41e6-b78b-9a19fa5f44c4",
+        "fields": {
+            "name": "DRF",
+            "iconUrl": "https://i.postimg.cc/rwpYJ4Cz/Screenshot-2024-12-28-at-22-47-42-PNG-Image-275-183-pixels.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "33c0471f-845a-41a8-8cb7-6917ba5ff6ca",
+        "fields": {
+            "name": "VS Code",
+            "iconUrl": "https://img.icons8.com/fluency/48/null/visual-studio-code-2019.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "3f6efff9-596f-409f-a619-92a73cb63735",
+        "fields": {
+            "name": "R Shiny",
+            "iconUrl": "https://i.postimg.cc/d3pDxrZv/shiny-logo.jpg"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "43ad30c6-24b0-4cb4-b278-bbd0b54d4b0c",
+        "fields": {
+            "name": "HTML5",
+            "iconUrl": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "47f17fb8-92de-4f99-8fa1-74531b122b41",
+        "fields": {
+            "name": "Python",
+            "iconUrl": "https://img.icons8.com/color/48/000000/python--v1.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "4c30c720-de49-4dbc-b82c-62e3b4e82228",
+        "fields": {
+            "name": "ReactJS",
+            "iconUrl": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "52668fe0-c2d7-4fea-bd5d-bc0b732b002d",
+        "fields": {
+            "name": "Tailwind",
+            "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/38px-Tailwind_CSS_Logo.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "5fd1ea35-c8da-4772-8cd0-11ed248c986e",
+        "fields": {
+            "name": "MySQL",
+            "iconUrl": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "64f0c451-c1f4-44b7-9e6a-acd6bee723a6",
+        "fields": {
+            "name": "GitHub",
+            "iconUrl": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "670d3c1f-0300-4830-afbd-5e34fede5db2",
+        "fields": {
+            "name": "Bootstrap",
+            "iconUrl": "https://img.icons8.com/color/48/000000/bootstrap.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "7e14e591-e5e3-4b0d-baf2-6cb7f0c77d20",
+        "fields": {
+            "name": "PostgreSQL",
+            "iconUrl": "https://img.icons8.com/color/48/000000/postgreesql.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "94fd9436-d513-48bf-92e2-78fe550070c2",
+        "fields": {
+            "name": "Django",
+            "iconUrl": "https://img.icons8.com/external-tal-revivo-green-tal-revivo/24/external-django-a-high-level-python-web-framework-that-encourages-rapid-development-logo-green-tal-revivo.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "96aa8347-cd96-4333-b9f6-e5435803a7d2",
+        "fields": {
+            "name": "Netlify",
+            "iconUrl": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "9be272f0-2733-402d-be65-ec0e65d211d8",
+        "fields": {
+            "name": "ggplot2",
+            "iconUrl": "https://i.postimg.cc/rp7VcMFC/ggplot2.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "a06c1016-1eae-46af-af9f-26e63998b548",
+        "fields": {
+            "name": "MaterialUI",
+            "iconUrl": "https://img.icons8.com/color/48/000000/material-ui.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "ab0b080d-c061-49fc-8f4f-6ce097eaa07d",
+        "fields": {
+            "name": "Redux",
+            "iconUrl": "https://img.icons8.com/color/48/000000/redux.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "ad5f141d-098f-4430-8a20-fe0ad8f7ee8b",
+        "fields": {
+            "name": "R Studio",
+            "iconUrl": "https://img.icons8.com/fluency/48/null/r-project.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "c2400053-7cee-4455-b397-19641bf4b2c1",
+        "fields": {
+            "name": "Docker",
+            "iconUrl": "https://img.icons8.com/fluency/24/docker.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "d9879b53-896d-4d8d-99bd-3a6c2835cfa1",
+        "fields": {
+            "name": "CSS3",
+            "iconUrl": "https://img.icons8.com/color/48/000000/css3.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "ecd8e087-d994-44ed-9f40-d3936a673ea2",
+        "fields": {
+            "name": "Sass",
+            "iconUrl": "https://img.icons8.com/color/48/000000/sass.png"
+        }
+    },
+    {
+        "model": "skillsProjects.skill",
+        "id": "ff0dc58d-5d7f-4679-99c7-037edd4857fb",
+        "fields": {
+            "name": "JavaScript",
+            "iconUrl": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+        }
+    }
+    ]
+    
