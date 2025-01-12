@@ -2,7 +2,7 @@
     {
         "model": "skillsProjects.project",
         "fields": {
-            "name": "Amazon🛒 Clone",
+            "name": "Amazon Clone",
             "video_name": "amazon_frontend",
             "description": "This is Amazon clone build with ReactJS, Styled Components and HTML5",
             "code": "https://github.com/Prachi-Gore/amazon",
@@ -46,7 +46,7 @@
     {
         "model": "skillsProjects.project",
         "fields": {
-            "name": "Fun With Triangle📐",
+            "name": "Fun With Triangle",
             "video_name": "fun_with_triangle",
             "description": "This is multi page website Here you can check whether given geometry is triangle? Area? Hypotenous? Quizzes",
             "code": "https://github.com/Prachi-Gore/Fun_With_Triangles",
@@ -79,7 +79,7 @@
     {
             "model": "skillsProjects.project",
             "fields": {
-                "name": "Multiplication🧮 App",
+                "name": "Multiplication App",
                 "video_name": "random_multiplication",
                 "description": "Practice multiplication and keep track of score",
                 "code": "https://github.com/Prachi-Gore/MultiplicationApp",
@@ -90,7 +90,7 @@
     {
             "model": "skillsProjects.project",
             "fields": {
-                "name": "Cash💵 Register Manager",
+                "name": "Cash Register Manager",
                 "video_name": "cash_register_manager",
                 "description": "help the user by telling how can he/she return the change to the customer with a minimum number of notes",
                 "code": "https://github.com/Prachi-Gore/Cash-Register-Manager",
@@ -112,7 +112,7 @@
     {
             "model": "skillsProjects.project",
             "fields": {
-                "name": "Digital Clock⏰",
+                "name": "Digital Clock",
                 "video_name": "digital_clock",
                 "description": "This is Digital Clock",
                 "code": "https://github.com/Prachi-Gore/DigitalClock",
@@ -123,7 +123,7 @@
     {
             "model": "skillsProjects.project",
             "fields": {
-                "name": "Is Your 🎂 Lucky",
+                "name": "Is Your Lucky",
                 "video_name": "lucky_bday",
                 "description": "This is fun app to see whether your Birthdate is Lucky",
                 "code": "https://github.com/Prachi-Gore/isYourBirthdayLucky",
@@ -134,7 +134,7 @@
     {
             "model": "skillsProjects.project",
             "fields": {
-                "name": "meme 🎭 Generator",
+                "name": "meme Generator",
                 "video_name": "meme_generator",
                 "description": "This is meme generator",
                 "code": "https://github.com/Prachi-Gore/meme-generator",
@@ -145,7 +145,7 @@
     {
             "model": "skillsProjects.project",
             "fields": {
-                "name": "Palindrome Birthday🍰",
+                "name": "Palindrome Birthday",
                 "video_name": "palindrome_birthday",
                 "description": "palindrome birthday checker",
                 "code": "https://github.com/Prachi-Gore/palindrome-birthday",
@@ -156,7 +156,7 @@
     {
             "model": "skillsProjects.project",
             "fields": {
-                "name": "Quiz🤔 App",
+                "name": "Quiz App",
                 "video_name": "quiz_cli",
                 "description": "let's play, how well do you know india. This APP made on Command Line Interface",
                 "code": "https://github.com/Prachi-Gore/Quiz_in_CLI",
@@ -167,7 +167,7 @@
     {
             "model": "skillsProjects.project",
             "fields": {
-                "name": "Stock Price💰 Calculator",
+                "name": "Stock Price Calculator",
                 "video_name": "stock_price",
                 "description": "This is Stock Purchase Profit and Loss Calculator App",
                 "code": "https://github.com/Prachi-Gore/Stock-Price-Calculator",
@@ -178,7 +178,7 @@
     {
             "model": "skillsProjects.project",
             "fields": {
-                "name": "Blog📝 Web App With R Shiny",
+                "name": "Blog Web App With R Shiny",
                 "video_name": "blog_shiny",
                 "description": "This blog is regarding how to create dashboard in R shiny. specially for How to render Plots",
                 "code": "https://github.com/Prachi-Gore/blog-shiny",
