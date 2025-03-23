@@ -4,10 +4,6 @@
  <img src="https://github.com/Prachi-Gore/Portfolio/blob/main/src/assets/page.png"/>
  </a>
  </p>
- <video width="600" controls>
-  <source src="https://github.com/Prachi-Gore/Portfolio/raw/main/public/portfolio.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 <h3>Tech Stack Used</h3>
  <ul>
   <li>Django</li>
